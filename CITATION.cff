@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ladder_ec: parameterized equivalence checking of quantum circuit generators via weighted automata"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-11-08
+license: MIT
+authors:
+  - family-names: Chuklanov
+    given-names: Pavel
+    email: Chuklanov.pavel@gmail.com
+preferred-citation:
+  type: article
+  title: "Parameterized equivalence checking of quantum circuit generators via weighted automata"
+  authors:
+    - family-names: Chuklanov
+      given-names: Pavel

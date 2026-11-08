@@ -1,0 +1,10 @@
+{
+  "title": "ladder_ec: parameterized equivalence checking of quantum circuit generators via weighted automata",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [{"name": "Chuklanov, Pavel"}],
+  "description": "Code, benchmark and run data of the paper \"Parameterized equivalence checking of quantum circuit generators via weighted automata\". The method decides equivalence of two Qiskit circuit generators for all sizes n and all bit strings a under six relations.",
+  "keywords": ["quantum circuits", "equivalence checking", "weighted automata", "parameterized verification", "Qiskit"],
+  "related_identifiers": []
+}
