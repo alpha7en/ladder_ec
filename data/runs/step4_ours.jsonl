@@ -1,0 +1,13 @@
+{"pair": "cx_k5", "K": 5, "n0": 7, "verdict": {"E2": "equal, exact"}, "time_s": 0.188, "automata_s": 0.176, "quick_search_s": 0.01, "step4_s": 0.002, "step4": {"n": [1, 2, 3, 4, 5, 6], "verdicts": {"E2": "equal"}}}
+{"pair": "cx_k8", "K": 8, "n0": 10, "verdict": {"E2": "equal, exact"}, "time_s": 0.352, "automata_s": 0.319, "quick_search_s": 0.009, "step4_s": 0.023, "step4": {"n": [1, 2, 3, 4, 5, 6, 7, 8, 9], "verdicts": {"E2": "equal"}}}
+{"pair": "cx_k11", "K": 11, "n0": 13, "verdict": {"E2": "equal, exact"}, "time_s": 3.189, "automata_s": 0.593, "quick_search_s": 0.008, "step4_s": 2.587, "step4": {"n": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "verdicts": {"E2": "equal"}}}
+{"pair": "cx_k14", "K": 14, "n0": 16, "verdict": "MemoryError", "time_s": 19.233, "automata_s": null, "quick_search_s": null, "step4_s": null, "step4": null}
+{"pair": "cx_k20", "K": 20, "n0": 22, "verdict": "MemoryError", "time_s": 19.65, "automata_s": null, "quick_search_s": null, "step4_s": null, "step4": null}
+{"pair": "rzz_k5", "K": 5, "n0": 7, "verdict": {"E2": "equal, error <= 2^-45"}, "time_s": 0.667, "automata_s": 0.613, "quick_search_s": 0.041, "step4_s": 0.012, "step4": {"n": [1, 2, 3, 4, 5, 6], "verdicts": {"E2": "equal"}}}
+{"pair": "rzz_k8", "K": 8, "n0": 10, "verdict": {"E2": "equal, error <= 2^-42"}, "time_s": 0.88, "automata_s": 0.444, "quick_search_s": 0.061, "step4_s": 0.374, "step4": {"n": [1, 2, 3, 4, 5, 6, 7, 8, 9], "verdicts": {"E2": "equal"}}}
+{"pair": "rzz_k11", "K": 11, "n0": 13, "verdict": {"E2": "equal, error <= 2^-44"}, "time_s": 80.404, "automata_s": 0.494, "quick_search_s": 0.047, "step4_s": 79.863, "step4": {"n": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "verdicts": {"E2": "equal"}}}
+{"pair": "rzz_k14", "K": 14, "n0": 16, "verdict": "MemoryError", "time_s": 511.045, "automata_s": null, "quick_search_s": null, "step4_s": null, "step4": null}
+{"pair": "rzz_k20", "K": 20, "n0": 22, "verdict": "timeout 600 s", "time_s": 600.008, "automata_s": null, "quick_search_s": null, "step4_s": null, "step4": null}
+{"pair": "bv_k5", "K": 5, "n0": 7, "verdict": {"E2": "equal, error <= 2^-42"}, "time_s": 1.327, "automata_s": 0.524, "quick_search_s": 0.472, "step4_s": 0.331, "step4": {"n": [1, 2, 3, 4, 5, 6], "verdicts": {"E2": "equal"}}}
+{"pair": "bv_k8", "K": 8, "n0": 10, "verdict": {"E2": "equal, error <= 2^-41"}, "time_s": 231.246, "automata_s": 0.335, "quick_search_s": 0.45, "step4_s": 230.46, "step4": {"n": [1, 2, 3, 4, 5, 6, 7, 8, 9], "verdicts": {"E2": "equal"}}}
+{"pair": "bv_k11", "K": 11, "n0": 13, "verdict": "timeout 600 s", "time_s": 600.037, "automata_s": null, "quick_search_s": null, "step4_s": null, "step4": null}

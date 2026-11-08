@@ -1,0 +1,2 @@
+ghz translator: ladder n_min 2 | equal to MQT Bench at n = 2..9: True [True, True, True, True, True, True, True, True]
+bv translator: ladder n_min 3 | equal to MQT Bench at n = 2..9: True [True, True, True, True, True, True, True, True]

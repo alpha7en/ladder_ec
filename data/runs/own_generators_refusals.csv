@@ -1,0 +1,63 @@
+task,style,model,status,reason,message,via,diag
+C01_ghz,ladder,M2,ladder,,,,ok
+C01_ghz,star,M3,ladder,,,,ok
+C01_ghz,tree,M4-tree,refused,while_loop,while loop,,
+C02_w,cascade,M2~,refused,nonconst_angle,"angle `math.acos(math.sqrt(1 / (n - i)))` depends on n, the loop counter",,
+C02_w,tree,M4-tree,refused,recursion,recursion: w_tree -> _w_split -> _w_split,,
+C02_w,lib,lib,refused,unknown_call,call of `np.zeros` outside the accepted fragment,,
+C03_bv,phase,M3*,ladder,,,,ok
+C03_bv,ancilla,M3*,ladder,,,,ok
+C03_bv,shortcut,M3*,ladder,,,,ok
+C04_dj,kickback,HO,refused,library_gate,`compose`: library block or circuit transformation,,
+C04_dj,compute_uncompute,HO,refused,library_gate,`compose`: library block or circuit transformation,,
+C05_qft,loops,M3,refused,nested_loop,loop bounds depend on an outer counter,qft_textbook <- tasks_classic.py:277,
+C05_qft,recursive,M4,refused,recursion,recursion: qft_recursive -> _qft_rec -> _qft_rec,,
+C05_qft,lib,lib,refused,library_gate,`append`: library block or circuit transformation,,
+C06_iqft,loops,M3,refused,nonaffine_expression,operation FloorDiv on n or on the loop counter,iqft_textbook <- tasks_classic.py:323,
+C06_iqft,inverse,lib,refused,library_gate,returns `qft_loops(n).inverse()`,,
+C07_grover,mcx,nonM,refused,unknown_call,call of `grover_iters` in an expression,,
+C07_grover,mcp,nonM,refused,unknown_call,call of `grover_iters` in an expression,,
+C08_grover_k,loop,M1,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,
+C08_grover_k,repeat,lib,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,
+C09_trotter_k,seq,M1,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,
+C09_trotter_k,brick,M1,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,
+C09_trotter_k,pairs,M1+mod2,refused,unsupported_statement,nested function definition,,
+C10_qpe,angles,M3,refused,nonconst_angle,angle depends on the loop counter `j`,,
+C10_qpe,repeat,nonM,refused,nonaffine_expression,operation Pow on n or on the loop counter,,
+C11_adder,cuccaro,M2,refused,two_registers,qubit count 2n+1: several registers of length n,,
+C11_adder,draper,M3,refused,two_registers,qubit count 2n+0: several registers of length n,,
+C12_repetition,ladder,M2,ladder,,,,ok
+C12_repetition,star,M3,ladder,,,,ok
+C12_repetition,tree,M4-tree,refused,while_loop,while loop,,
+Q01_ghz_minus,ladder,M2,ladder,,,,ok
+Q01_ghz_minus,tree,M4-tree,refused,while_loop,while loop,,
+Q02_uniform,loop,M2,ladder,,,,ok
+Q02_uniform,broadcast,M2,ladder,,,,ok
+Q03_parity,star,M3,ladder,,,,ok
+Q03_parity,ladder,M2,ladder,,,,ok
+Q03_parity,tree,M4-tree,refused,while_loop,while loop,,
+Q04_flip_below_L,enumerate,nonM,refused,bit_param_misuse,the parameter is used as a repetition count: `range(L)`,,
+Q04_flip_below_L,compare,M3*,refused,branch_on_size,branch on n: `if L == 2 ** n`,,
+Q05_uniform_below_L,recursive,M4*,refused,recursion,recursion: uniL_recursive -> _prep_rec -> _prep_rec,,
+Q05_uniform_below_L,lib,lib,refused,unknown_call,call of `np.zeros` outside the accepted fragment,,
+Q06_reflect_zero,mcx,M2+mcx,refused,growing_arity,`mcx`: multi-controlled gate of growing arity,,
+Q06_reflect_zero,ctrlstate,M0+mcx,refused,growing_arity,condition on a list of qubits whose length depends on n: `if not controls`,mcx <- tasks_qcoder.py:283,
+Q06_reflect_zero,vchain,M2,refused,branch_on_size,branch on n: `if n == 2`,,
+Q07_diffusion,conj,M2+mcx,refused,library_gate,`compose`: library block or circuit transformation,,
+Q07_diffusion,mcp,M2+mcx,refused,growing_arity,`mcp`: multi-controlled gate of growing arity,,
+Q08_cyclic_shift,chain,M2,ladder,,,,ok
+Q08_cyclic_shift,reversals,M3,refused,nonaffine_expression,operation FloorDiv on n or on the loop counter,,
+Q09_decrement,ctrlstate,M3+mcx,refused,growing_arity,condition on a list of qubits whose length grows with the counter: `if not controls`,mcx <- tasks_qcoder.py:415,
+Q09_decrement,xsandwich,M3+mcx,refused,growing_arity,condition on a list of qubits whose length grows with the counter: `if not controls`,mcx <- tasks_qcoder.py:423; _inc <- tasks_qcoder.py:429,
+Q09_decrement,qft,M3,refused,nested_loop,loop bounds depend on an outer counter,qft_textbook <- tasks_qcoder.py:436,
+Q10_phase_oracle,loop,M3,refused,nonconst_angle,angle depends on the parameter `a`,,
+Q10_phase_oracle,repeat,M1(a),refused,bit_param_misuse,the parameter is used as a repetition count: `range(a)`,,
+Q11_ctrl_add_const,draper,M3,refused,nested_loop,loop bounds depend on an outer counter,qft_textbook <- tasks_qcoder.py:500,
+Q11_ctrl_add_const,repeat,nonM,refused,bit_param_misuse,the parameter is used as a repetition count: `range(a)`,,
+Q11_ctrl_add_const,bits,M3*+mcx,refused,nested_loop,loop bounds depend on an outer counter,_inc <- tasks_qcoder.py:519,
+Q12_negate,xinc,M3+mcx,refused,growing_arity,condition on a list of qubits whose length grows with the counter: `if not controls`,mcx <- tasks_qcoder.py:423; _inc <- tasks_qcoder.py:547,
+Q12_negate,or_cascade,M3+mcx,refused,growing_arity,condition on a list of qubits whose length grows with the counter: `if not controls`,mcx <- tasks_qcoder.py:556,
+Q13_nonzero_flag,ctrlstate,M0+mcx,refused,growing_arity,condition on a list of qubits whose length depends on n: `if not controls`,mcx <- tasks_qcoder.py:580,
+Q13_nonzero_flag,xsandwich,M2+mcx,refused,growing_arity,`mcx`: multi-controlled gate of growing arity,,
+Q14_error_k,ifchain,M0,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,
+Q14_error_k,index,M0,refused,no_size_dependence,the qubit count does not depend on the first parameter (fixed size),,

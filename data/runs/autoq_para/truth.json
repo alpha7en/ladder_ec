@@ -1,0 +1,103 @@
+{
+ "ghz_ladder_vs_elevator_E5": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "ghz_noH_E5": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "ghz_rev_E5": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "cx_ladder_vs_czh_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "cx_ladder_vs_rev_E1": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "cx_rev_vs_hcxh_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "cx_ladder_vs_elevator_E1": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "bv10_E5": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "bv10_mut_E5": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "bv_bits_E5": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "adder_uma3_vs_uma2_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "adder_mut_E1": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "syndrome_two_passes_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "syndrome_mut_E1": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "heis_opt_vs_naive_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ },
+ "heis_mut_E1": {
+  "truth": false,
+  "expected": false,
+  "first_bad_n": [
+   3
+  ]
+ },
+ "grover_ideal_self_E1": {
+  "truth": true,
+  "expected": true,
+  "first_bad_n": []
+ }
+}

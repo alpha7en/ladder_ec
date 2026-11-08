@@ -1,0 +1,99 @@
+{"task_id": "DeutschJozsa/1.4", "params": [["x", "List[int]"], ["y", "int"]], "generic": ["x"]}
+{"task_id": "DeutschJozsa/2.1", "params": [["query", "List[int]"], ["answer", "int"]], "generic": ["query"]}
+{"task_id": "GroversAlgorithm/1.1", "params": [["query_register", "list[int]"], ["target", "int"]], "generic": ["query_register"]}
+{"task_id": "GroversAlgorithm/1.2", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "GroversAlgorithm/1.3", "params": [["query_register", "list[int]"], ["target", "int"], ["pattern", "list[bool]"]], "generic": ["pattern", "query_register"]}
+{"task_id": "GroversAlgorithm/2.1", "params": [["register", "list[int]"]], "generic": ["register"]}
+{"task_id": "GroversAlgorithm/2.2", "params": [["register", "list[int]"]], "generic": ["register"]}
+{"task_id": "SimonsAlgorithm/1.1", "params": [["x_register", "list[int]"], ["y", "int"]], "generic": ["x_register"]}
+{"task_id": "SimonsAlgorithm/1.2", "params": [["x_register", "list[int]"], ["y_register", "list[int]"]], "generic": ["x_register"]}
+{"task_id": "Superposition/1.10", "params": [["qs", "List[int]"], ["is_even", "bool"]], "generic": ["qs"]}
+{"task_id": "Superposition/1.11", "params": [["qs", "List[int]"], ["bits", "List[bool]"]], "generic": ["qs"]}
+{"task_id": "Superposition/1.8", "params": [["qs", "List[int]"]], "generic": ["qs"]}
+{"task_id": "Superposition/1.9", "params": [["qs", "List[int]"]], "generic": ["qs"]}
+{"task_id": "RippleCarryAdder/1.7", "params": [["a", "list"], ["b", "list"], ["sum_qubits", "list"], ["carry", "int"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/2.5", "params": [["a", "list"], ["b", "list"], ["carry", "int"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/3.5", "params": [["a", "list"], ["b", "list"], ["carry", "int"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/4.1", "params": [["a", "list"], ["b", "list"], ["borrow_bit", "int"]], "generic": ["a", "b"]}
+{"task_id": "RippleCarryAdder/5.1", "params": [["a", "list"], ["b", "list"], ["sum_qubits", "list"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/5.2", "params": [["a", "list"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/5.3", "params": [["a", "list"], ["b", "list"], ["diff", "list"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/5.4", "params": [["a", "list"], ["b", "list"]], "generic": ["a"]}
+{"task_id": "RippleCarryAdder/5.5", "params": [["a", "list"], ["b", "list"]], "generic": ["a"]}
+{"task_id": "QFT/1.3", "params": [["q", "int"], ["j", "list"]], "generic": ["j"]}
+{"task_id": "QFT/1.4", "params": [["q", "int"], ["j_register", "list"]], "generic": ["j_register"]}
+{"task_id": "QFT/1.5", "params": [["register", "list"]], "generic": ["register"]}
+{"task_id": "QFT/1.6", "params": [["register", "list"]], "generic": ["register"]}
+{"task_id": "QFT/1.7", "params": [["register", "list"]], "generic": ["register"]}
+{"task_id": "QFT/2.2", "params": [["register", "list"], ["F", "int"]], "generic": ["register"]}
+{"task_id": "QFT/2.3", "params": [["register", "list"]], "generic": ["register"]}
+{"task_id": "QFT/2.4", "params": [["qubits", "list"]], "generic": ["qubits"]}
+{"task_id": "QFT/2.5", "params": [["register", "list"]], "generic": ["register"]}
+{"task_id": "Superposition/1.13", "params": [["qubits", "list"], ["bits", "list"]], "generic": ["bits", "qubits"]}
+{"task_id": "BoundedKnapsack/1.3", "params": [["values", "List[int]"], ["selection", "List[int]"], ["result", "List[int]"]], "generic": ["result", "values"]}
+{"task_id": "BoundedKnapsack/1.4", "params": [["register", "List[int]"], ["threshold", "int"], ["target", "int"]], "generic": ["register"]}
+{"task_id": "BoundedKnapsack/1.5", "params": [["register", "List[int]"], ["threshold", "int"], ["target", "int"]], "generic": ["register"]}
+{"task_id": "BoundedKnapsack/1.6", "params": [["weights", "List[int]"], ["selection", "List[int]"], ["weight_reg", "List[int]"], ["capacity", "int"], ["target", "int"]], "generic": ["weight_reg", "weights"]}
+{"task_id": "BoundedKnapsack/1.7", "params": [["profits", "List[int]"], ["selection", "List[int]"], ["profit_reg", "List[int]"], ["min_profit", "int"], ["target", "int"]], "generic": ["profit_reg", "profits"]}
+{"task_id": "BoundedKnapsack/1.8", "params": [["values", "List[int]"], ["weights", "List[int]"], ["selection", "List[int]"], ["capacity", "int"], ["min_profit", "int"], ["target", "int"]], "generic": ["selection", "values", "weights"]}
+{"task_id": "BoundedKnapsack/2.3", "params": [["jagged", "List[List[int]]"], ["limits", "List[int]"], ["target", "int"]], "generic": ["jagged", "limits"]}
+{"task_id": "BoundedKnapsack/2.4", "params": [["quantity", "List[int]"], ["coefficient", "int"], ["result", "List[int]"]], "generic": ["quantity", "result"]}
+{"task_id": "BoundedKnapsack/2.6", "params": [["values", "List[int]"], ["jagged", "List[List[int]]"], ["result", "List[int]"]], "generic": ["jagged", "result", "values"]}
+{"task_id": "BoundedKnapsack/2.7", "params": [["weights", "List[int]"], ["jagged", "List[List[int]]"], ["capacity", "int"], ["target", "int"]], "generic": ["jagged", "weights"]}
+{"task_id": "BoundedKnapsack/2.8", "params": [["profits", "List[int]"], ["jagged", "List[List[int]]"], ["min_profit", "int"], ["target", "int"]], "generic": ["jagged", "profits"]}
+{"task_id": "BoundedKnapsack/2.9", "params": [["values", "List[int]"], ["weights", "List[int]"], ["jagged", "List[List[int]]"], ["capacity", "int"], ["min_profit", "int"], ["target", "int"]], "generic": ["jagged", "values", "weights"]}
+{"task_id": "GraphColoring/3", "params": [["color_qubits", "list"]], "generic": ["color_qubits"]}
+{"task_id": "GraphColoring/7", "params": [["vertex_colors", "dict"], ["edges", "List[Tuple[int, int]]"], ["target", "int"]], "generic": ["edges"]}
+{"task_id": "GraphColoring/9", "params": [["colors", "list"], ["edges", "list"]], "generic": ["edges"]}
+{"task_id": "GraphColoring/10", "params": [["qubits", "list"]], "generic": ["qubits"]}
+{"task_id": "GraphColoring/11", "params": [["colors", "list"], ["edges", "list"]], "generic": ["colors", "edges"]}
+{"task_id": "MarkingOracles/1", "params": [["query", "List[int]"], ["target", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/2", "params": [["query", "List[int]"], ["target", "int"], ["pattern", "List[bool]"]], "generic": ["pattern", "query"]}
+{"task_id": "MarkingOracles/3", "params": [["query", "List[int]"], ["target", "int"], ["threshold", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/4", "params": [["query", "List[int]"], ["target", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/5", "params": [["query", "List[int]"], ["target", "int"], ["k", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/6", "params": [["query", "List[int]"], ["target", "int"], ["divisor", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/7", "params": [["query", "List[int]"], ["target", "int"], ["low", "int"], ["high", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/8", "params": [["reg_a", "List[int]"], ["reg_b", "List[int]"], ["target", "int"]], "generic": ["reg_a", "reg_b"]}
+{"task_id": "MarkingOracles/9", "params": [["query", "List[int]"], ["target", "int"]], "generic": ["query"]}
+{"task_id": "MarkingOracles/11", "params": [["query", "List[int]"], ["pattern", "List[bool]"]], "generic": ["pattern", "query"]}
+{"task_id": "PhaseEstimation/2", "params": [["qubits", "List[int]"]], "generic": ["qubits"]}
+{"task_id": "PhaseEstimation/3", "params": [["qubits", "List[int]"]], "generic": ["qubits"]}
+{"task_id": "QEC_BitFlipCode/2", "params": [["qubits", "list"]], "generic": ["qubits"]}
+{"task_id": "QEC_BitFlipCode/7", "params": [["qubits", "list"]], "generic": ["qubits"]}
+{"task_id": "UnitaryPatterns/9", "params": [["controls", "List[int]"], ["target", "int"]], "generic": ["controls"]}
+{"task_id": "UnitaryPatterns/14", "params": [["qubits", "List[int]"], ["layers", "int"]], "generic": ["qubits"]}
+{"task_id": "UnitaryPatterns/15", "params": [["qubits", "List[int]"]], "generic": ["qubits"]}
+{"task_id": "UnitaryPatterns/17", "params": [["qubits", "List[int]"]], "generic": ["qubits"]}
+{"task_id": "SolveSATWithGrover/1.1", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "SolveSATWithGrover/1.2", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "SolveSATWithGrover/1.3", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "SolveSATWithGrover/1.4", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "SolveSATWithGrover/1.5", "params": [["query_qubits", "list[int]"], ["target", "int"], ["clause", "List[Tuple[int, bool]]"]], "generic": ["clause"]}
+{"task_id": "SolveSATWithGrover/1.6", "params": [["query_qubits", "list[int]"], ["target", "int"], ["problem", "List[List[Tuple[int, bool]]]"]], "generic": ["problem"]}
+{"task_id": "SolveSATWithGrover/2.1", "params": [["query_qubits", "list[int]"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "SolveSATWithGrover/2.2", "params": [["query_qubits", "list[int]"], ["target", "int"], ["problem", "List[List[Tuple[int, bool]]]"]], "generic": ["problem"]}
+{"task_id": "KeyDistribution_BB84/1.1", "params": [["qubits", "list[int]"]], "generic": ["qubits"]}
+{"task_id": "KeyDistribution_BB84/2.2", "params": [["qubits", "List[int]"], ["bases", "List[bool]"], ["bits", "List[bool]"]], "generic": ["bases", "bits", "qubits"]}
+{"task_id": "TruthTables/10", "params": [["tt", "TruthTable"], ["controls", "list[int]"], ["target", "int"]], "generic": ["controls"]}
+{"task_id": "DeutschJozsa/1.5", "params": [["x", "list[int]"], ["y", "int"], ["r", "list[int]"]], "generic": ["r", "x"]}
+{"task_id": "DeutschJozsa/1.6", "params": [["x", "list[int]"], ["y", "int"], ["r", "list[int]"]], "generic": ["r", "x"]}
+{"task_id": "DeutschJozsa/1.7", "params": [["x", "list[int]"], ["y", "int"], ["prefix", "list[int]"]], "generic": ["prefix", "x"]}
+{"task_id": "DeutschJozsa/1.8", "params": [["x", "list[int]"], ["y", "int"]], "generic": ["x"]}
+{"task_id": "SimonsAlgorithm/1.3", "params": [["x", "list[int]"], ["y", "int"], ["A", "list[int]"]], "generic": ["A", "x"]}
+{"task_id": "SimonsAlgorithm/1.4", "params": [["x", "list[int]"], ["y", "list[int]"], ["A", "list[list[int]]"]], "generic": ["A", "x", "y"]}
+{"task_id": "SimonsAlgorithm/2.1", "params": [["query", "list[int]"]], "generic": ["query"]}
+{"task_id": "Superposition/1.12", "params": [["qs", "List[int]"], ["bits1", "List[bool]"], ["bits2", "List[bool]"]], "generic": ["bits1", "qs"]}
+{"task_id": "Superposition/1.14", "params": [["qs", "List[int]"], ["parity", "int"]], "generic": ["qs"]}
+{"task_id": "Superposition/2.5", "params": [["qs", "List[int]"]], "generic": ["qs"]}
+{"task_id": "Superposition/2.6", "params": [["qs", "List[int]"]], "generic": ["qs"]}
+{"task_id": "Superposition/2.7", "params": [["qs", "List[int]"]], "generic": ["qs"]}
+{"task_id": "QFT/1.8", "params": [["register", "List[int]"]], "generic": ["register"]}
+{"task_id": "QFT/2.1", "params": [["register", "List[int]"]], "generic": ["register"]}
+{"task_id": "QFT/3.1", "params": [["P", "int"], ["input_register", "List[int]"]], "generic": ["input_register"]}
+{"task_id": "QFT/3.2", "params": [["P", "int"], ["input_register", "List[int]"]], "generic": ["input_register"]}
+{"task_id": "GroversAlgorithm/2.3", "params": [["register", "List[int]"], ["oracle_func", "Callable[[QuantumCircuit, List[int]], QuantumCircuit]"]], "generic": ["register"]}
+{"task_id": "tutorials/Oracles/1.3", "params": [["query_qubits", "list"], ["target", "int"]], "generic": ["query_qubits"]}
+{"task_id": "tutorials/Oracles/3.1", "params": [["x", "list"], ["y", "int"]], "generic": ["x"]}
+{"task_id": "tutorials/MultiQubitGates/5", "params": [["controls", "List[int]"], ["target", "int"], ["control_bits", "List[bool]"]], "generic": ["control_bits", "controls"]}
+{"task_id": "examples/GroverSearch2Qubits", "params": [["qubits", "list"]], "generic": ["qubits"]}

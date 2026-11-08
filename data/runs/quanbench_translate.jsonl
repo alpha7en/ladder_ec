@@ -1,0 +1,1008 @@
+{"source": "QuanBench44 reference", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:nonint_constant"}
+{"source": "QuanBench44 reference", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 reference", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "09", "entry_point": "qpe_x_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 reference", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "23", "entry_point": "QSub", "params": ["cir", "3"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench44 reference", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 reference", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 reference", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:early_return"}
+{"source": "QuanBench44 reference", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 reference", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 reference", "task_id": "41", "entry_point": "VQE_Z2", "params": ["param"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 reference", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 reference", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 reference", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:nonint_constant"}
+{"source": "QuanBench117 reference", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 reference", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "09", "entry_point": "qpe_x_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "23", "entry_point": "QSub", "params": ["cir", "3"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 reference", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:early_return"}
+{"source": "QuanBench117 reference", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 reference", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 reference", "task_id": "41", "entry_point": "VQE_Z2", "params": ["param"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 reference", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 reference", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 reference", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "66", "entry_point": "direct_construct_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 reference", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 reference", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 reference", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 reference", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 reference", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench44 GPT-4.1 T=0.8", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:nonint_constant"}
+{"source": "QuanBench117 GPT-4o", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "05", "entry_point": "qaoa_knapsack", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "09", "entry_point": "qpe_x_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "23", "entry_point": "QSub", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "38", "entry_point": "QCL_circuit", "params": ["weights", "n_qubits", "depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "41", "entry_point": "VQE_Z2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench117 GPT-4o", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "45", "entry_point": "custom_feature_map_first_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "46", "entry_point": "custom_feature_map_second_order", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:nonconst_angle"}
+{"source": "QuanBench117 GPT-4o", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "47", "entry_point": "custom_feature_map_second_order_custom_data_map", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "48", "entry_point": "custom_feature_map_second_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "49", "entry_point": "custom_feature_map_third_order_pauli_expansion", "params": ["feature_dimension", "circuit_depth"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "50", "entry_point": "qsvm", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "51", "entry_point": "qsvm_multiclass", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "52", "entry_point": "vqc", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "53", "entry_point": "grover_graph_coloring_3nodes", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "54", "entry_point": "prepare_w3_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "55", "entry_point": "AmplitudeAmplification", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "56", "entry_point": "Deutsch_Jozsa_Balance_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "57", "entry_point": "Deutsch_Jozsa_Balance_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "58", "entry_point": "Deutsch_Jozsa_Balance_9", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "59", "entry_point": "Deutsch_Jozsa_Balance_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "60", "entry_point": "GHZ_via_CCX", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "61", "entry_point": "W_State_with_sqrt_iswap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "62", "entry_point": "recover_xor_key_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "63", "entry_point": "bernstein_vazirani_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "64", "entry_point": "quantum_adder_step", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "65", "entry_point": "grover_search_oracle_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "66", "entry_point": "direct_construct_00", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "66", "entry_point": "direct_construct_00", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "66", "entry_point": "direct_construct_00", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "66", "entry_point": "direct_construct_00", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "66", "entry_point": "direct_construct_00", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "67", "entry_point": "grover_search_oracle_101_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "68", "entry_point": "W_State_5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "69", "entry_point": "generate_quantum_state_phi", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "70", "entry_point": "generate_quantum_state_by_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "71", "entry_point": "grover_3SAT_variant", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "72", "entry_point": "grover_boolean_oracle_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "73", "entry_point": "grover_qsat_qubo_style", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "74", "entry_point": "grover_password_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "75", "entry_point": "qaoa_sat_ansatz", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "76", "entry_point": "qft_period_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "77", "entry_point": "solve_boolean_qaoa", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "78", "entry_point": "Simon_10", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "79", "entry_point": "BruteForce_Simon_2bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "80", "entry_point": "Simon_101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "81", "entry_point": "Simon_001", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "82", "entry_point": "Simon_1101", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "83", "entry_point": "Hadamard_Test_z", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "84", "entry_point": "Hadamard_Test_rx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "85", "entry_point": "Hadamard_Test_h_n2", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "86", "entry_point": "Hadamard_Test_composite_u_n3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "87", "entry_point": "Hadamard_Test_h_n3_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "88", "entry_point": "Hadamard_Test_h_n4_middle", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "89", "entry_point": "Bell_State_PhiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "90", "entry_point": "Bell_State_PsiPlus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "91", "entry_point": "Bell_State_PsiMinus", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "92", "entry_point": "Bell_State_rxcx", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "93", "entry_point": "Quantum_Teleportation_RY", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "94", "entry_point": "Quantum_State_Swap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "95", "entry_point": "Quantum_Teleportation_Chain", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "96", "entry_point": "generate_quantum_state_qubit5_alt1", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": [], "size_param": false, "translator": "error:SyntaxError"}
+{"source": "QuanBench117 GPT-4o", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": null, "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "97", "entry_point": "generate_quantum_state_qubit5_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "98", "entry_point": "generate_3qubit_bell_like", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unsupported_expression"}
+{"source": "QuanBench117 GPT-4o", "task_id": "99", "entry_point": "Qadd_extend_4bit", "params": ["a", "b", "c0"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "100", "entry_point": "Qadd_ripple_adder", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "101", "entry_point": "W_State_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "102", "entry_point": "W_State_4_init", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": ["weights", "W", "iterations", "force_target"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": ["weights", "W", "iterations", "force_target"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": ["weights", "W", "iterations", "force_target"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": ["weights", "W", "iterations", "force_target"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "103", "entry_point": "grover_knapsack_single_target", "params": ["weights", "W", "iterations", "force_target"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": ["weights", "W", "iterations", "shots"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": ["weights", "W", "iterations", "shots"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": ["weights", "W", "iterations", "shots"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": ["weights", "W", "iterations", "shots"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "104", "entry_point": "grover_knapsack_multiple_targets", "params": ["weights", "W", "iterations", "shots"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench117 GPT-4o", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "105", "entry_point": "qaoa_tsp", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "106", "entry_point": "swaptest_xaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:nonint_constant"}
+{"source": "QuanBench117 GPT-4o", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench117 GPT-4o", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "107", "entry_point": "fidelity_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "108", "entry_point": "swaptest_two_states", "params": ["state1", "state2"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench117 GPT-4o", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "109", "entry_point": "create_bell_like_state", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "110", "entry_point": "CX_gate_decompose_iSWAP", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "111", "entry_point": "CX_gate_decompose_iSWAP_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "112", "entry_point": "swaptest_two_qubits", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "113", "entry_point": "hadamard_test_overlap", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "114", "entry_point": "swaptest_fidelity_unknown_vs_basis", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "115", "entry_point": "hadamard_test_fidelity", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "116", "entry_point": "qft_encode_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench117 GPT-4o", "task_id": "117", "entry_point": "approx_qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "01", "entry_point": "grover_search_oracle_00", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "02", "entry_point": "generate_quantum_state_qubit3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "03", "entry_point": "grover_3SAT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "04", "entry_point": "qaoa_maxcut_ansatz", "params": ["G", "beta", "gamma"], "size_param": false, "translator": "refused:nonint_constant"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "06", "entry_point": "swaptest_zaxis", "params": ["unknown_state"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "07", "entry_point": "swaptest_individual", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "08", "entry_point": "qft_6", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "09", "entry_point": "qpe_x_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "10", "entry_point": "HHL_4x4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "11", "entry_point": "Deutsch_Jozsa_Balance_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "12", "entry_point": "Deutsch_Jozsa_Constant_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "13", "entry_point": "Simon_11", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "14", "entry_point": "Simon_110", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "15", "entry_point": "Hadmard_Test_h", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "16", "entry_point": "Bell_State", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "17", "entry_point": "GHZ", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "18", "entry_point": "Quantum_Teleportation", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "19", "entry_point": "generate_quantum_state_qubit5", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "20", "entry_point": "Bernstein_Vazirani_011", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "21", "entry_point": "MAJ_3", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "22", "entry_point": "Qadd", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "23", "entry_point": "QSub", "params": ["cir", "3"], "size_param": false, "translator": "refused:extra_params"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "24", "entry_point": "W_State_4", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "25", "entry_point": "qpe_grover00_gate", "params": ["n_count"], "size_param": true, "translator": "refused:extra_params"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "26", "entry_point": "GHZ3_SWAPTEST", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "27", "entry_point": "decompose_CNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "28", "entry_point": "decompose_CCCNOT", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "29", "entry_point": "chsh_circuit", "params": ["alice", "bob"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "30", "entry_point": "or_circuit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "31", "entry_point": "period_finding_7_15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "32", "entry_point": "shor_7mod15", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "33", "entry_point": "ipe_s_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "34", "entry_point": "ipe_t_gate", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "35", "entry_point": "parity_check_3bit", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "36", "entry_point": "reverse_state_preparation_bell", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "37", "entry_point": "controlled_hadamard", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "39", "entry_point": "quantum_state_preparation", "params": ["parameters"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "40", "entry_point": "VQE_2", "params": ["parameters"], "size_param": false, "translator": "refused:unknown_call"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "41", "entry_point": "VQE_Z2", "params": ["param"], "size_param": false, "translator": "refused:unsupported_statement"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "42", "entry_point": "U_gate_decompose", "params": ["theta", "phi", "lam"], "size_param": false, "translator": "refused:no_size_dependence"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "43", "entry_point": "Toffoli_gate_decompose", "params": [], "size_param": false, "translator": "refused:no_size_param"}
+{"source": "QuanBench+ Qiskit reference", "task_id": "44", "entry_point": "CX_gate_decompose_Clifford", "params": [], "size_param": false, "translator": "refused:no_size_param"}
