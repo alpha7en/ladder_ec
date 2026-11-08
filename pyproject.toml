@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ladder_ec"
+version = "1.0.0"
+description = "Parameterized equivalence checking of quantum circuit generators via weighted automata"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Pavel Chuklanov", email = "Chuklanov.pavel@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = ["qiskit==2.5.2", "numpy==2.5.3"]
+
+[project.optional-dependencies]
+experiments = ["mqt.qcec==3.11.0", "matplotlib"]
+test = ["pytest"]
+
+[project.scripts]
+ladder_ec = "ladder_ec.__main__:main"
+
+[tool.setuptools]
+packages = ["ladder_ec"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

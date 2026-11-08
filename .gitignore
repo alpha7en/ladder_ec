@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+external/
+experiments/figures/out/*.pdf
+experiments/external/quantumkatas/out/
+data/runs/*_instances.jsonl
