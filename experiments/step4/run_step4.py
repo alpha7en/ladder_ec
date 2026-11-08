@@ -58,7 +58,7 @@ def qcec():
         for name, r, s, rel, K in PAIRS:
             n0 = max(analyze(G, r)["n_min"], analyze(G, s)["n_min"])
             f.write(json.dumps(dict(id=name, task=name, label=rel, ref=dict(file=REL, function=r),
-                                    sol=dict(file=REL, function=s), origin="review", cutoff={rel: n0 - 1},
+                                    sol=dict(file=REL, function=s), origin="step4", cutoff={rel: n0 - 1},
                                     n_min=1)) + "\n")
     sys.argv = [sys.argv[0], "--mode", "A", "--pairs", inp, "--jobs", "1", "--out", os.path.join(RUNS, "step4_qcec.jsonl"),
                 "--inst", os.path.join(RUNS, "step4_qcec_instances.jsonl")]

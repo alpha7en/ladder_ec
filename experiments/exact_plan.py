@@ -66,7 +66,7 @@ def main():
     done = {json.loads(l)["id"] for l in open(out)} if os.path.exists(out) else set()
     for p in [p for p in todo if p["id"] not in done]:
         row = run(p, limit)
-        with open(out, "a") as f:          # opened and closed per line, with fsync: robust to a lost mount
+        with open(out, "a") as f:          # written and fsynced line by line
             f.write(json.dumps(row) + "\n")
             f.flush()
             os.fsync(f.fileno())

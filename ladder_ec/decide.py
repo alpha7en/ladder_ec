@@ -8,9 +8,8 @@ E3  [equiv_anc]    ancillas (the last e qubits) start in |0> and must return to 
                    and G(psi (x) 0) = (V psi) (x) 0, the ancilla counts of G and R may differ;
 E3p [simeq_anc]    the same up to a phase.
 E2: for unitaries U_G = c U_R iff U_G U_R^+ = c I, so E2 is E1 for the series of U_G U_R^+ against
-c(a) delta(x, y), c = <0|U_G U_R^+|0> (Table 1). This product cancels what G and R share: its automaton is small
-even when G and R are not (an extra loop from qubit 20 on a Clifford+T block: 26 states against 578 for the pair
-series f conj f of the solution). E5p and E3p use the pair series f(a,x,y) conj f(a,x',y') (Lemma S.8).
+c(a) delta(x, y), c = <0|U_G U_R^+|0> (Table 1). This product cancels what G and R share, so its automaton
+stays small when those of G and R are large. E5p and E3p use the pair series f(a,x,y) conj f(a,x',y') (Lemma S.8).
 
 A difference series that is non-zero modulo p is non-zero over C, so "not equal" comes with an exact
 counterexample (n, a, x, y). "Equal" means: zero modulo every prime of a plan (plans.py, Thm. 2).
