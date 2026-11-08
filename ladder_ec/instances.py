@@ -18,6 +18,8 @@ import importlib.util, inspect, itertools, math, os, random, sys
 from fractions import Fraction
 import numpy as np
 
+from .field import is_prime
+
 
 class Unsupported(Exception):
     """the circuit uses something the simulation cannot represent exactly (a gate or an angle)"""
@@ -108,24 +110,8 @@ def primes_1mod(m, count, rng):
         c = rng.randrange(2**30, 2**31) // m * m + 1
         if c < 2**30 or c in out:
             continue
-        if all(pow(b, c - 1, c) == 1 for b in (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37)):   # Fermat filter
-            ok = True
-            d, s = c - 1, 0
-            while d % 2 == 0:
-                d //= 2; s += 1
-            for b in (2, 3, 5, 7, 11, 13, 17):                   # Miller-Rabin, deterministic for c < 3.4e14
-                x = pow(b, d, c)
-                if x in (1, c - 1):
-                    continue
-                for _ in range(s - 1):
-                    x = x * x % c
-                    if x == c - 1:
-                        break
-                else:
-                    ok = False
-                    break
-            if ok:
-                out.append(c)
+        if is_prime(c):
+            out.append(c)
     return out
 
 
@@ -238,7 +224,7 @@ def _prop(R, A, B):
 def primes_in_order(m):
     p = 2 ** 30 // m * m + 1
     while True:
-        if p >= 2 ** 30 and all(pow(b, p - 1, p) == 1 for b in (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37)):
+        if p >= 2 ** 30 and is_prime(p):
             yield p
         p += m
 

@@ -86,6 +86,7 @@ flowchart LR
 | `tests/` | pytest suite (`python -m pytest`) |
 | `data/benchmark/` | the 2332 reference–solution pairs: generators `gen_*.py`, `pairs.jsonl`, `pairs_second.jsonl`, `truth.jsonl` |
 | `data/runs/` | outputs of the runs used in the paper; machines in `data/runs/MACHINE.md` |
+| `data/own_generators/` | our 62 generators for other tasks (Table 10, row "own generators") |
 | `data/external/` | our classification of the MQT Bench refusals |
 | `experiments/` | scripts that produce `data/runs/` and the tables and figures |
 | `experiments/tables/`, `experiments/figures/` | Tables 3-10, Fig. 6, S1, S2 from `data/` (they run nothing) |
@@ -108,7 +109,7 @@ The table and figure scripts read only `data/` and run in seconds. Runtimes of t
 | Table 7 | `experiments/qcec/enumerate_sizes.py witness` | `experiments/tables/table07_qcec_unequal.py` | 1.1 h |
 | Table 8 | `experiments/step4/run_step4.py ours`, `qcec` | `experiments/tables/table08_step4.py` | 35 min; 2 min |
 | Table 9 | `experiments/autoq_para/fetch_and_build.sh`, `run_autoq.sh`, `run_ours.py` | `experiments/tables/table09_autoq_para.py` | minutes |
-| Table 10 | `experiments/external/quantumkatas/{select_katas,run_katas,llm_katas,llm_katas_rerun}.py`, `experiments/external/quanbench/{fetch.sh,translate.py}`, `experiments/external/mqtbench/{fetch.sh,strip_defaults.py,check_rewrites.py}` | `experiments/tables/table10_applicability.py` | 3 min |
+| Table 10 | `experiments/external/quantumkatas/{select_katas,run_katas,llm_katas,llm_katas_rerun}.py`, `experiments/external/quanbench/{fetch.sh,translate.py}`, `experiments/external/mqtbench/{fetch.sh,strip_defaults.py,check_rewrites.py}`, `experiments/external/own_generators/refusals.py` | `experiments/tables/table10_applicability.py` | 3 min |
 | Fig. 6 | runs of Tables 4 and 6 | `experiments/figures/fig6_times.py` | - |
 | Fig. S1 | `experiments/exact_plan.py` (exact plan without the cap on T, 30 min per pair) | `experiments/figures/figS1_plans.py` | 10 h |
 | Fig. S2 | `experiments/checks/ladder_dims.py` | `experiments/figures/figS2_bound.py` | 15 s |

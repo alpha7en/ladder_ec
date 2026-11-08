@@ -71,3 +71,14 @@ def test_step4_primes_are_prime(m):
     for _ in range(20):
         p = next(it)
         assert p % m == 1 and p >= 2 ** 30 and is_prime(p)
+
+
+def test_is_prime_miller_rabin():
+    """deterministic Miller-Rabin against trial division, Carmichael numbers and strong pseudoprimes to small bases"""
+    trial = lambda q: q > 1 and all(q % d for d in range(2, int(q ** 0.5) + 1))
+    assert all(is_prime(q) == trial(q) for q in range(20000))
+    assert all(is_prime(q) == trial(q) for q in range(2 ** 30 - 2000, 2 ** 30 + 2000))
+    for c in (561, 1105, 1729, 2465, 2821, 6601, 8911, 3215031751, 2152302898747, 3474749660383,
+              341550071728321, 3825123056546413051):
+        assert not is_prime(c)
+    assert is_prime(2 ** 31 - 1) and is_prime(2 ** 61 - 1)

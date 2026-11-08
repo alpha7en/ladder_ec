@@ -14,8 +14,32 @@ import numpy as np
 from .automata import no_overflow
 
 
+SMALL_PRIMES = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37)
+
+
 def is_prime(q):
-    return q > 1 and all(q % d for d in range(2, int(q ** 0.5) + 1))
+    """deterministic Miller-Rabin with the first 12 primes as bases: exact for q < 3.3 * 10^24"""
+    if q < 2:
+        return False
+    for b in SMALL_PRIMES:
+        if q % b == 0:
+            return q == b
+    assert q < 3_317_044_064_679_887_385_961_981, "is_prime: outside the deterministic range"
+    d, s = q - 1, 0
+    while d % 2 == 0:
+        d //= 2
+        s += 1
+    for b in SMALL_PRIMES:
+        x = pow(b, d, q)
+        if x in (1, q - 1):
+            continue
+        for _ in range(s - 1):
+            x = x * x % q
+            if x == q - 1:
+                break
+        else:
+            return False
+    return True
 
 
 def random_prime(m, rng):
