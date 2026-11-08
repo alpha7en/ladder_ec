@@ -2,7 +2,15 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "ladder_ec: parameterized equivalence checking of quantum circuit generators via weighted automata"
 version: 1.0.0
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.24059427
+repository-code: "https://github.com/alpha7en/ladder_ec"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24059427
+    description: "All versions"
+  - type: doi
+    value: 10.5281/zenodo.24059428
+    description: "Version 1.0.0"
 date-released: 2026-11-08
 license: MIT
 authors:
