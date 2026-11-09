@@ -1,4 +1,4 @@
-"""Fig. 6: time of the method and of the QCEC enumeration of all n <= n_cut against n_cut on the 444 equal pairs
+"""Fig. 7: time of the method and of the QCEC enumeration of all n <= n_cut against n_cut on the 444 equal pairs
 answered "equal" (Sec. 7.4; same pairs as Table 6). An enumeration not finished within 60 s is written as 60 s
 (qcec_done = 0). ncut_j: n_cut spread by 10^u, |u| <= 0.04, for drawing only.
 Writes experiments/figures/out/fig6_times.csv (the data of the paper figure) and fig6_times.pdf (a plain plot,

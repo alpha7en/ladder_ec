@@ -1,4 +1,4 @@
-"""Run the method on the whole benchmark in one process (Sec. 7.1, Tables 3-7, Fig. 6).
+"""Run the method on the whole benchmark in one process (Sec. 7.1, Tables 3-7, Fig. 7).
 
 Variants:
   main             the relation of each task (data/benchmark/pairs.jsonl)       -> data/runs/method_main.jsonl

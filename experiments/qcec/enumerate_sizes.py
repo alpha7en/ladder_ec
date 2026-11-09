@@ -1,4 +1,4 @@
-"""QCEC enumeration of sizes on the benchmark (Sec. 7.4, Tables 6 and 7, Fig. 6), with experiments/qcec/driver.py
+"""QCEC enumeration of sizes on the benchmark (Sec. 7.4, Tables 6 and 7, Fig. 7), with experiments/qcec/driver.py
 in mode A: all n from 1 to the bound, for tasks with bits all a (at most 4096 per n); 60 s per instance and per
 pair; 3 GB per worker process; one pair at a time (on the machine of the method).
 Modes (first argument):

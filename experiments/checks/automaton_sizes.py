@@ -100,13 +100,13 @@ for name, fam in (("R (Example 1)", R), ("GHZ (Example 2)", GHZ)):
               % (len(W.alpha), total, bad))
 
 
-# Why R has 4 states after minimization and 3 in Fig. 4a. The automaton A_R of the figure (q_e, q_o, q_f) defines the
+# Why R has 4 states after minimization and 3 in Fig. 5a. The automaton A_R of the figure (q_e, q_o, q_f) defines the
 # family (Definition 5: agreement on words of length N = n + e >= n_min + e = 2). The automaton of Theorem 1 has to
 # agree with U only on these words; on words of length 0 and 1 (n < n_min) its series f_P is different, and
 # minimization (F3) keeps the series f_P on all words, so it gives 4. The same holds for GHZ (fig_ghz_rank.py): 3 for
 # the smallest automaton of the family, 4 for f_P.
 def A_R(word):
-    """explicit automaton of Fig. 4a: letter (a, x, y); x != y gives the zero matrix; q_e -> q_f and q_o -> q_f on any letter"""
+    """explicit automaton of Fig. 5a: letter (a, x, y); x != y gives the zero matrix; q_e -> q_f and q_o -> q_f on any letter"""
     st = {"e": 1}
     for a, x, y in word:
         if x != y:
@@ -134,7 +134,7 @@ for nn in range(1, 5):
             for y in itertools.product((0, 1), repeat=N):
                 total += 1
                 bad += A_R(list(zip(a, x, y))) % p != int(M[x + y]) % p
-print("== R: explicit automaton A_R with three states (Fig. 4a) against <x|U(n,a)|y>, n = 1..4: %d mismatches of %d" % (bad, total))
+print("== R: explicit automaton A_R with three states (Fig. 5a) against <x|U(n,a)|y>, n = 1..4: %d mismatches of %d" % (bad, total))
 diff = []
 for L in (0, 1):
     for wd in itertools.product(range(8), repeat=L):

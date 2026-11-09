@@ -104,7 +104,7 @@ matplotlib. Run from the repository root as `python -I <script>`. Runtimes are f
 | Table 8 | `step4/run_step4.py ours`, `qcec` | `tables/table08_step4.py` | 37 min |
 | Table 9 | `autoq_para/{fetch_and_build.sh,run_autoq.sh,run_ours.py}` | `tables/table09_autoq_para.py` | minutes |
 | Table 10 | `external/{quantumkatas,quanbench,mqtbench,own_generators}/` | `tables/table10_applicability.py` | 3 min |
-| Fig. 6 | runs of Tables 4 and 6 | `figures/fig6_times.py` | - |
+| Fig. 7 | runs of Tables 4 and 6 | `figures/fig6_times.py` | - |
 | Fig. S1 | `exact_plan.py` (30 min per pair) | `figures/figS1_plans.py` | 10 h |
 | Fig. S2 | `checks/ladder_dims.py` | `figures/figS2_bound.py` | 15 s |
 
