@@ -3,8 +3,9 @@
 [![DOI](https://zenodo.org/badge/1450595142.svg)](https://doi.org/10.5281/zenodo.24059427)
 
 `ladder_ec` decides whether two Qiskit generators `solve(n)` or `solve(n, a)` build equivalent circuits for every
-size `n` and every bit string `a`. Code and data of the paper "Parameterized equivalence checking of quantum circuit
-generators via weighted automata" (P. Chuklanov).
+size `n` and every bit string `a`. Code and data of the paper
+"Parameterized equivalence checking of quantum circuit generators via weighted automata"
+(P. Chuklanov, [arXiv:2611.12049](https://doi.org/10.48550/arXiv.2611.12049)).
 
 ## Quick start
 
@@ -127,8 +128,14 @@ Sect. S2.
 
 ## Citing
 
-See `CITATION.cff`. Until the paper is published, cite the software: P. Chuklanov, ladder_ec 1.0.0, 2026,
+Please cite the paper:
+
+> P. Chuklanov, "Parameterized equivalence checking of quantum circuit generators via weighted automata,"
+> arXiv:2611.12049 [quant-ph], 2026. https://doi.org/10.48550/arXiv.2611.12049
+
+For the software itself, cite `ladder_ec` 1.0.0, 2026,
 doi:10.5281/zenodo.24059428 (this version) or doi:10.5281/zenodo.24059427 (all versions).
+The machine-readable citation is in `CITATION.cff`.
 
 ## License
 
